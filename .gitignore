@@ -1,0 +1,58 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Build output
+bin/
+build/
+dist/
+
+# Go workspace
+go.work
+go.work.sum
+
+# Dependency directories (if used)
+vendor/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Coverage reports
+coverage.out
+*.coverprofile
+
+# Temporary files
+tmp/
+temp/
+
+# Test binary
+*.test
+
+# GoLand
+.idea/
+
+# VSCode Go debugging
+__debug_bin
+
+# compiled program
+Flac2MP3
+Flac2MP3.exe
